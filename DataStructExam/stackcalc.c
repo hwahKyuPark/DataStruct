@@ -89,5 +89,46 @@ void calcExpr (ExpreToken *pExprTokens, int tokenCount)
 			 DeleteLinkedStack(pStack);
 		 }
 	 }
+}
 
+void converInfixToPostfix(ExpreToken *pExprTokens, int tokenCount)
+{
+	LinkedStack *pStack = NULL;
+	StackNode *pNode =	NULL;
+	PrecdenceType tokenType;
+	PrecdenceType inStackTokenType;
+
+	int i = 0;
+
+	if(pExprTokens == NULL) return;
+
+	if(pStack != NULL)
+	{
+		for(i = 0 ; i < tokenCount ; i++)
+		{
+			tokenType = pExprTokens[i].type;
+
+			switch (tokenType)
+			{
+				case operand:
+					printf("%f \n", pExprTokens[i].value);
+					break;
+
+				case rparen:
+					pNode = Pop(pStack);
+					while(pNode != NULL && pNode->data.value != lparen)
+					{
+						printToken(pNode->data);
+						free(pNode);
+
+						pNode = Pop(pStack);
+					}
+
+
+
+				default:
+					break;
+			}
+		}
+	}
 }
