@@ -80,10 +80,12 @@
   <ItemGroup>
     <ClCompile Include="LinkedStack.c" />
     <ClCompile Include="Main.c" />
+    <ClCompile Include="stackcalc.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="exprdef.h" />
+    <ClInclude Include="expredef.h" />
     <ClInclude Include="LinkedStack.h" />
+    <ClInclude Include="stackcalc.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

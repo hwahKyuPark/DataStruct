@@ -27,12 +27,18 @@
     <ClCompile Include="LinkedStack.c">
       <Filter>소스 파일\Stack</Filter>
     </ClCompile>
+    <ClCompile Include="stackcalc.c">
+      <Filter>소스 파일\Stack</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="LinkedStack.h">
       <Filter>소스 파일\Stack</Filter>
     </ClInclude>
-    <ClInclude Include="exprdef.h">
+    <ClInclude Include="expredef.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stackcalc.h">
       <Filter>소스 파일\Stack</Filter>
     </ClInclude>
   </ItemGroup>
