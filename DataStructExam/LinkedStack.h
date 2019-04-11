@@ -2,7 +2,7 @@
 #define _LINKED_STACK_
 
 typedef struct StackNodeType{
-	ExpreToken data;
+	char data;
 	struct StackNodeType* pLink;
 }StackNode;
 

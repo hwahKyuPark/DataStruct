@@ -78,14 +78,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="linkedqueue.c" />
     <ClCompile Include="LinkedStack.c" />
     <ClCompile Include="Main.c" />
-    <ClCompile Include="stackcalc.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="expredef.h" />
     <ClInclude Include="LinkedStack.h" />
-    <ClInclude Include="stackcalc.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="linkedqueue.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

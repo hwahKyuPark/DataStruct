@@ -13,11 +13,17 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\Stack">
-      <UniqueIdentifier>{f7a7db55-1fca-44f7-8f14-8fb8bf4c5735}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\List">
       <UniqueIdentifier>{d37489b6-2c0b-4f61-a9e5-c97089e1adbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Tree">
+      <UniqueIdentifier>{b04ac0f7-1592-45c1-9811-fcd0f4c09d3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Queue">
+      <UniqueIdentifier>{8f16a01d-7f00-4af7-9537-ef379d1b9667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Stack">
+      <UniqueIdentifier>{f7a7db55-1fca-44f7-8f14-8fb8bf4c5735}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -27,8 +33,8 @@
     <ClCompile Include="LinkedStack.c">
       <Filter>소스 파일\Stack</Filter>
     </ClCompile>
-    <ClCompile Include="stackcalc.c">
-      <Filter>소스 파일\Stack</Filter>
+    <ClCompile Include="linkedqueue.c">
+      <Filter>소스 파일\Queue</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -38,8 +44,11 @@
     <ClInclude Include="expredef.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="stackcalc.h">
-      <Filter>소스 파일\Stack</Filter>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="linkedqueue.h">
+      <Filter>소스 파일\Queue</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

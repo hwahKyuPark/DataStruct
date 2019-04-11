@@ -3,6 +3,13 @@
 #include <stdlib.h>
 #include "LinkedStack.h"
 
+
+int main(int argc, char *argv[])
+{
+	return 0;
+}
+/*
+-- stack main
 void DisplayLinkedStack(LinkedStack* pStack)
 {
 	StackNode* pNode = NULL;
@@ -24,6 +31,8 @@ void DisplayLinkedStack(LinkedStack* pStack)
 		}
 	}
 }
+
+
 
 int main(int argc, char *argv[])
 {
@@ -75,3 +84,5 @@ int main(int argc, char *argv[])
 
 
 }
+
+*/

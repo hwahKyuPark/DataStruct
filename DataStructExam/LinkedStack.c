@@ -105,6 +105,7 @@ void DeleteLinkedStack(LinkedStack* pStack)
 int isLinkedStackFull(LinkedStack* pStack)
 {
 	int ret = FALSE;
+
 	return ret;
 }
 
